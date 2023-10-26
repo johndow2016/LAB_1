@@ -7,5 +7,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Run the "flask ci" command
-        run:  flask ci
+      - run: Run the "- chmod +x ./flaskapp/st.sh" command
