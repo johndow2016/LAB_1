@@ -10,5 +10,5 @@ jobs:
       - run: chmod +x ./flaskapp/st.sh
       - run: pip3 install flask
       - run: pip3 install gunicorn
-      - run: CD flaskapp
+      - run: pip3 install requests
       - run:  ./st.sh
