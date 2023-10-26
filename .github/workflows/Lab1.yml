@@ -7,6 +7,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: -pip3 install flask
       - name: Run a script
       - run: python3 ./flaskapp/some_app.py
