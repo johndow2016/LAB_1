@@ -9,3 +9,4 @@ jobs:
       - uses: actions/checkout@v4
       - run: chmod +x ./flaskapp/st.sh
       - run: pip3 install flask
+      - run: pip3 install gunicorn
