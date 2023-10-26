@@ -15,4 +15,4 @@ jobs:
         shell: bash
         run: ./st.sh
         working-directory: ./flaskapp
-      - run: python3 ./some_app.py
+      - run: python3 ./flaskapp/some_app.py
