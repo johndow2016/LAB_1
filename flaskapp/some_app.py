@@ -41,7 +41,7 @@ class NetForm(FlaskForm):
 # валидатор проверяет введение данных после нажатия кнопки submit
 # и указывает пользователю ввести данные, если они не введены
 # или неверны
-openid = StringField('openid', validators = [DataRequired()])
+  openid = StringField('openid', validators = [DataRequired()])
 # поле загрузки файла
 # здесь валидатор укажет ввести правильные файлы
 upload = FileField('Load image', validators=[
