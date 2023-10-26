@@ -14,7 +14,7 @@ jobs:
       - run: pip3 install flask-bootstrap
       - run: pip3 install flask-wtf
       - run: pip3 install pillow
-      - run: pip3 install tensorflow==2.0.0-alpha0
+      - run: pip3 install tensorflow
       - run: pip3 install keras
       - name: Change directory
         shell: bash
