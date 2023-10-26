@@ -63,7 +63,7 @@ import net as neuronet
 @app.route("/net",methods=['GET', 'POST'])
 def net():
 # создаем объект формы
-form = NetForm()
+  form = NetForm()
 # обнуляем переменные, передаваемые в форму
 filename=None
 neurodic = {}
