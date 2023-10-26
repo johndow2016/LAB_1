@@ -11,6 +11,7 @@ jobs:
       - run: pip3 install flask
       - run: pip3 install gunicorn
       - run: pip3 install requests
-      - shell: bash
-        run: CD ./flaskapp
-      - run: ./st.sh
+      - name: Change directory
+        shell: bash
+        run: ./st.sh
+        working-directory: ./flaskapp
