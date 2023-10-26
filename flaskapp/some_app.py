@@ -111,15 +111,15 @@ def apinet():
     for elem in decode:
       neurodic[elem[0][1]] = str(elem[0][2])
       print(elem)
-# пример сохранения переданного файла
-# handle = open('./static/f.png','wb')
-# handle.write(cfile)
-# handle.close()
-# преобразуем словарь в json-строку
-ret = json.dumps(neurodic)
-# готовим ответ пользователю
-resp = Response(response=ret,
-status=200,
-mimetype="application/json")
-# возвращаем ответ
+      # пример сохранения переданного файла
+      # handle = open('./static/f.png','wb')
+      # handle.write(cfile)
+      # handle.close()
+      # преобразуем словарь в json-строку
+  ret = json.dumps(neurodic)
+      # готовим ответ пользователю
+  resp = Response(response=ret,
+      status=200,
+      mimetype="application/json")
+      # возвращаем ответ
   return resp
