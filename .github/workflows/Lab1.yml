@@ -7,4 +7,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: Run the "- chmod +x ./flaskapp/st.sh" command
+      - run: chmod +x ./flaskapp/st.sh
