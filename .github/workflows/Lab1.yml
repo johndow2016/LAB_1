@@ -10,3 +10,5 @@ jobs:
       - run: chmod +x ./flaskapp/st.sh
       - run: pip3 install flask
       - run: pip3 install gunicorn
+        working-directory: ./LAB_1/flaskapp
+      - run:  ./st.sh
