@@ -16,6 +16,7 @@ jobs:
       - run: pip3 install pillow
       - run: pip3 install tensorflow
       - run: pip3 install keras
+      - run: pip3 install lxml
       - name: Change directory
         shell: bash
         run: ./st.sh
